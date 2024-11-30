@@ -356,7 +356,7 @@ Poprawne wyjście: `{'M': 1, 'a': 1, 'r': 1, 'i': 1, 'n': 1}`
 **Zadanie 7**  
 Wykorzystaj moduł `string` (dodaje się go poprzez instrukcję `import string` zapisaną zazwyczaj na początku skryptu) i następnie:
 * wczytaj ze standardowego wejścia dowolny łańcuch znaków,
-* używając formatowania znaków wyświetl ile znaków oraz jaki procent (zamienionych na małe litery) z nich pokrywa się ze zbiorem znaków z: `string.ascii_lowercase, string.digits` (podpowiedź: operator `in`)
+* używając formatowania znaków wyświetl ile znaków oraz jaki procent (zamienionych na małe litery) z nich pokrywa się ze zbiorem znaków z: `string.ascii_lowercase, string.digits` (podpowiedź: operator `in` lub przecięcie zbiorów (`set.intersection()`)
 
 **Przykład:**  
 Wejście (input):  
